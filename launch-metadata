@@ -1,0 +1,9 @@
+export CRAIL_HOME=/opt/crail
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+apt-get update && apt-get install -y ssh rsync vim openjdk-8-jdk net-tools iputils-ping tmux dstat
+
+cp -r ./pocket-dram/crail /opt/crail
+
+cd /opt/crail
+./start_namenode.sh

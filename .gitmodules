@@ -1,0 +1,3 @@
+[submodule "pocket-dram"]
+	path = pocket-dram
+	url = https://github.com/charles-typ/pocket-dram
